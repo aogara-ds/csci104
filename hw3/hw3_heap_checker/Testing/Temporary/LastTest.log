@@ -1,0 +1,6665 @@
+Start testing: Feb 21 03:13 UTC
+----------------------------------------------------------
+1/21 Testing: HeapTest.ConstructionDestruction
+1/21 Test: HeapTest.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.ConstructionDestruction"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.ConstructionDestruction" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2534== Memcheck, a memory error detector
+==2534== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2534== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2534== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.ConstructionDestruction
+==2534== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ConstructionDestruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ConstructionDestruction
+Heap()
+~Heap()
+[       OK ] HeapTest.ConstructionDestruction (6 ms)
+[----------] 1 test from HeapTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==2534== 
+==2534== HEAP SUMMARY:
+==2534==     in use at exit: 0 bytes in 0 blocks
+==2534==   total heap usage: 409 allocs, 409 frees, 129,198 bytes allocated
+==2534== 
+==2534== All heap blocks were freed -- no leaks are possible
+==2534== 
+==2534== For lists of detected and suppressed errors, rerun with: -s
+==2534== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.93 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ConstructionDestruction" end time: Feb 21 03:13 UTC
+"HeapTest.ConstructionDestruction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/21 Testing: HeapTest.InitiallyEmpty
+2/21 Test: HeapTest.InitiallyEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.InitiallyEmpty"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.InitiallyEmpty" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2535== Memcheck, a memory error detector
+==2535== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2535== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2535== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.InitiallyEmpty
+==2535== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.InitiallyEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.InitiallyEmpty
+Heap()
+~Heap()
+[       OK ] HeapTest.InitiallyEmpty (8 ms)
+[----------] 1 test from HeapTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+==2535== 
+==2535== HEAP SUMMARY:
+==2535==     in use at exit: 0 bytes in 0 blocks
+==2535==   total heap usage: 409 allocs, 409 frees, 129,089 bytes allocated
+==2535== 
+==2535== All heap blocks were freed -- no leaks are possible
+==2535== 
+==2535== For lists of detected and suppressed errors, rerun with: -s
+==2535== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.InitiallyEmpty" end time: Feb 21 03:13 UTC
+"HeapTest.InitiallyEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/21 Testing: HeapTest.EmptyTopException
+3/21 Test: HeapTest.EmptyTopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyTopException"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.EmptyTopException" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2536== Memcheck, a memory error detector
+==2536== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2536== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2536== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyTopException
+==2536== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyTopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyTopException
+Heap()
+~Heap()
+[       OK ] HeapTest.EmptyTopException (33 ms)
+[----------] 1 test from HeapTest (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (53 ms total)
+[  PASSED  ] 1 test.
+==2536== 
+==2536== HEAP SUMMARY:
+==2536==     in use at exit: 0 bytes in 0 blocks
+==2536==   total heap usage: 411 allocs, 411 frees, 129,310 bytes allocated
+==2536== 
+==2536== All heap blocks were freed -- no leaks are possible
+==2536== 
+==2536== For lists of detected and suppressed errors, rerun with: -s
+==2536== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.75 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyTopException" end time: Feb 21 03:13 UTC
+"HeapTest.EmptyTopException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/21 Testing: HeapTest.EmptyPopException
+4/21 Test: HeapTest.EmptyPopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyPopException"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.EmptyPopException" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2537== Memcheck, a memory error detector
+==2537== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2537== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2537== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyPopException
+==2537== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyPopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyPopException
+Heap()
+pop()
+best element: ~Heap()
+[       OK ] HeapTest.EmptyPopException (37 ms)
+[----------] 1 test from HeapTest (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (52 ms total)
+[  PASSED  ] 1 test.
+==2537== 
+==2537== HEAP SUMMARY:
+==2537==     in use at exit: 0 bytes in 0 blocks
+==2537==   total heap usage: 411 allocs, 411 frees, 129,348 bytes allocated
+==2537== 
+==2537== All heap blocks were freed -- no leaks are possible
+==2537== 
+==2537== For lists of detected and suppressed errors, rerun with: -s
+==2537== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.79 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyPopException" end time: Feb 21 03:13 UTC
+"HeapTest.EmptyPopException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/21 Testing: HeapTest.SingleItemNonempty
+5/21 Test: HeapTest.SingleItemNonempty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemNonempty"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.SingleItemNonempty" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2538== Memcheck, a memory error detector
+==2538== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2538== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2538== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemNonempty
+==2538== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemNonempty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemNonempty
+Heap()
+push(1)
+~Heap()
+[       OK ] HeapTest.SingleItemNonempty (13 ms)
+[----------] 1 test from HeapTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+==2538== 
+==2538== HEAP SUMMARY:
+==2538==     in use at exit: 0 bytes in 0 blocks
+==2538==   total heap usage: 410 allocs, 410 frees, 129,121 bytes allocated
+==2538== 
+==2538== All heap blocks were freed -- no leaks are possible
+==2538== 
+==2538== For lists of detected and suppressed errors, rerun with: -s
+==2538== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemNonempty" end time: Feb 21 03:13 UTC
+"HeapTest.SingleItemNonempty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/21 Testing: HeapTest.SingleItemPush
+6/21 Test: HeapTest.SingleItemPush
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPush"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.SingleItemPush" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2539== Memcheck, a memory error detector
+==2539== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2539== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2539== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPush
+==2539== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPush
+Heap()
+push(1)
+~Heap()
+[       OK ] HeapTest.SingleItemPush (12 ms)
+[----------] 1 test from HeapTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+==2539== 
+==2539== HEAP SUMMARY:
+==2539==     in use at exit: 0 bytes in 0 blocks
+==2539==   total heap usage: 410 allocs, 410 frees, 129,093 bytes allocated
+==2539== 
+==2539== All heap blocks were freed -- no leaks are possible
+==2539== 
+==2539== For lists of detected and suppressed errors, rerun with: -s
+==2539== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPush" end time: Feb 21 03:13 UTC
+"HeapTest.SingleItemPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/21 Testing: HeapTest.SingleItemPushPop
+7/21 Test: HeapTest.SingleItemPushPop
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPushPop"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.SingleItemPushPop" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2540== Memcheck, a memory error detector
+==2540== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2540== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2540== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPushPop
+==2540== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPushPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPushPop
+Heap()
+push(1)
+pop()
+best element: 1
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.SingleItemPushPop (12 ms)
+[----------] 1 test from HeapTest (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+==2540== 
+==2540== HEAP SUMMARY:
+==2540==     in use at exit: 0 bytes in 0 blocks
+==2540==   total heap usage: 410 allocs, 410 frees, 129,114 bytes allocated
+==2540== 
+==2540== All heap blocks were freed -- no leaks are possible
+==2540== 
+==2540== For lists of detected and suppressed errors, rerun with: -s
+==2540== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.63 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPushPop" end time: Feb 21 03:13 UTC
+"HeapTest.SingleItemPushPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/21 Testing: HeapTest.TwoElementPush_LowPriFirst
+8/21 Test: HeapTest.TwoElementPush_LowPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.TwoElementPush_LowPriFirst" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2541== Memcheck, a memory error detector
+==2541== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2541== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2541== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_LowPriFirst
+==2541== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_LowPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_LowPriFirst
+Heap()
+push(3)
+push(10)
+pop()
+best element: 3
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.TwoElementPush_LowPriFirst (14 ms)
+[----------] 1 test from HeapTest (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+==2541== 
+==2541== HEAP SUMMARY:
+==2541==     in use at exit: 0 bytes in 0 blocks
+==2541==   total heap usage: 411 allocs, 411 frees, 129,300 bytes allocated
+==2541== 
+==2541== All heap blocks were freed -- no leaks are possible
+==2541== 
+==2541== For lists of detected and suppressed errors, rerun with: -s
+==2541== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.64 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_LowPriFirst" end time: Feb 21 03:13 UTC
+"HeapTest.TwoElementPush_LowPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/21 Testing: HeapTest.TwoElementPush_HighPriFirst
+9/21 Test: HeapTest.TwoElementPush_HighPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.TwoElementPush_HighPriFirst" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2542== Memcheck, a memory error detector
+==2542== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2542== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2542== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_HighPriFirst
+==2542== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_HighPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_HighPriFirst
+Heap()
+push(50)
+push(49)
+trickling up
+pop()
+best element: 49
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.TwoElementPush_HighPriFirst (15 ms)
+[----------] 1 test from HeapTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+==2542== 
+==2542== HEAP SUMMARY:
+==2542==     in use at exit: 0 bytes in 0 blocks
+==2542==   total heap usage: 411 allocs, 411 frees, 129,330 bytes allocated
+==2542== 
+==2542== All heap blocks were freed -- no leaks are possible
+==2542== 
+==2542== For lists of detected and suppressed errors, rerun with: -s
+==2542== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.TwoElementPush_HighPriFirst" end time: Feb 21 03:13 UTC
+"HeapTest.TwoElementPush_HighPriFirst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/21 Testing: HeapTest.Duplicates
+10/21 Test: HeapTest.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.Duplicates"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.Duplicates" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2543== Memcheck, a memory error detector
+==2543== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2543== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2543== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.Duplicates
+==2543== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.Duplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.Duplicates
+Heap()
+push(9)
+push(9)
+trickling up
+push(20)
+pop()
+best element: 9
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 9
+20
+9
+swapping 9 and 20
+9
+20
+pop()
+best element: 9
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.Duplicates (17 ms)
+[----------] 1 test from HeapTest (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+==2543== 
+==2543== HEAP SUMMARY:
+==2543==     in use at exit: 0 bytes in 0 blocks
+==2543==   total heap usage: 412 allocs, 412 frees, 129,089 bytes allocated
+==2543== 
+==2543== All heap blocks were freed -- no leaks are possible
+==2543== 
+==2543== For lists of detected and suppressed errors, rerun with: -s
+==2543== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.Duplicates" end time: Feb 21 03:13 UTC
+"HeapTest.Duplicates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/21 Testing: HeapTest.NegativeElements
+11/21 Test: HeapTest.NegativeElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.NegativeElements"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.NegativeElements" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2544== Memcheck, a memory error detector
+==2544== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2544== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2544== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.NegativeElements
+==2544== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.NegativeElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.NegativeElements
+Heap()
+push(9999)
+push(-9999)
+trickling up
+~Heap()
+[       OK ] HeapTest.NegativeElements (12 ms)
+[----------] 1 test from HeapTest (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (28 ms total)
+[  PASSED  ] 1 test.
+==2544== 
+==2544== HEAP SUMMARY:
+==2544==     in use at exit: 0 bytes in 0 blocks
+==2544==   total heap usage: 411 allocs, 411 frees, 129,115 bytes allocated
+==2544== 
+==2544== All heap blocks were freed -- no leaks are possible
+==2544== 
+==2544== For lists of detected and suppressed errors, rerun with: -s
+==2544== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.66 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.NegativeElements" end time: Feb 21 03:13 UTC
+"HeapTest.NegativeElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/21 Testing: HeapTest.ThreeElementPush_0_5_10
+12/21 Test: HeapTest.ThreeElementPush_0_5_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_5_10"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.ThreeElementPush_0_5_10" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2545== Memcheck, a memory error detector
+==2545== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2545== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2545== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_5_10
+==2545== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_5_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_5_10
+Heap()
+push(0)
+push(5)
+push(10)
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 5
+10
+5
+swapping 5 and 10
+5
+10
+pop()
+best element: 5
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.ThreeElementPush_0_5_10 (20 ms)
+[----------] 1 test from HeapTest (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (38 ms total)
+[  PASSED  ] 1 test.
+==2545== 
+==2545== HEAP SUMMARY:
+==2545==     in use at exit: 0 bytes in 0 blocks
+==2545==   total heap usage: 412 allocs, 412 frees, 129,226 bytes allocated
+==2545== 
+==2545== All heap blocks were freed -- no leaks are possible
+==2545== 
+==2545== For lists of detected and suppressed errors, rerun with: -s
+==2545== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_0_5_10" end time: Feb 21 03:13 UTC
+"HeapTest.ThreeElementPush_0_5_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/21 Testing: HeapTest.ThreeElementPush_0_10_5
+13/21 Test: HeapTest.ThreeElementPush_0_10_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_10_5"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.ThreeElementPush_0_10_5" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2546== Memcheck, a memory error detector
+==2546== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2546== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2546== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_10_5
+==2546== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_10_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_10_5
+Heap()
+push(0)
+push(10)
+push(5)
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 10
+pop()
+best element: 5
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.ThreeElementPush_0_10_5 (22 ms)
+[----------] 1 test from HeapTest (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==2546== 
+==2546== HEAP SUMMARY:
+==2546==     in use at exit: 0 bytes in 0 blocks
+==2546==   total heap usage: 412 allocs, 412 frees, 129,226 bytes allocated
+==2546== 
+==2546== All heap blocks were freed -- no leaks are possible
+==2546== 
+==2546== For lists of detected and suppressed errors, rerun with: -s
+==2546== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_0_10_5" end time: Feb 21 03:13 UTC
+"HeapTest.ThreeElementPush_0_10_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/21 Testing: HeapTest.ThreeElementPush_5_0_10
+14/21 Test: HeapTest.ThreeElementPush_5_0_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_0_10"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.ThreeElementPush_5_0_10" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2547== Memcheck, a memory error detector
+==2547== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2547== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2547== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_0_10
+==2547== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_0_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_0_10
+Heap()
+push(5)
+push(0)
+trickling up
+push(10)
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 5
+10
+5
+swapping 5 and 10
+5
+10
+pop()
+best element: 5
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.ThreeElementPush_5_0_10 (20 ms)
+[----------] 1 test from HeapTest (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (35 ms total)
+[  PASSED  ] 1 test.
+==2547== 
+==2547== HEAP SUMMARY:
+==2547==     in use at exit: 0 bytes in 0 blocks
+==2547==   total heap usage: 412 allocs, 412 frees, 129,226 bytes allocated
+==2547== 
+==2547== All heap blocks were freed -- no leaks are possible
+==2547== 
+==2547== For lists of detected and suppressed errors, rerun with: -s
+==2547== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_5_0_10" end time: Feb 21 03:13 UTC
+"HeapTest.ThreeElementPush_5_0_10" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/21 Testing: HeapTest.ThreeElementPush_5_10_0
+15/21 Test: HeapTest.ThreeElementPush_5_10_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_10_0"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.ThreeElementPush_5_10_0" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2548== Memcheck, a memory error detector
+==2548== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2548== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2548== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_10_0
+==2548== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_10_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_10_0
+Heap()
+push(5)
+push(10)
+push(0)
+trickling up
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 10
+pop()
+best element: 5
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.ThreeElementPush_5_10_0 (18 ms)
+[----------] 1 test from HeapTest (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (36 ms total)
+[  PASSED  ] 1 test.
+==2548== 
+==2548== HEAP SUMMARY:
+==2548==     in use at exit: 0 bytes in 0 blocks
+==2548==   total heap usage: 412 allocs, 412 frees, 129,226 bytes allocated
+==2548== 
+==2548== All heap blocks were freed -- no leaks are possible
+==2548== 
+==2548== For lists of detected and suppressed errors, rerun with: -s
+==2548== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_5_10_0" end time: Feb 21 03:13 UTC
+"HeapTest.ThreeElementPush_5_10_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/21 Testing: HeapTest.ThreeElementPush_10_0_5
+16/21 Test: HeapTest.ThreeElementPush_10_0_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_0_5"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.ThreeElementPush_10_0_5" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2549== Memcheck, a memory error detector
+==2549== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2549== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2549== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_0_5
+==2549== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_0_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_0_5
+Heap()
+push(10)
+push(0)
+trickling up
+push(5)
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 10
+pop()
+best element: 5
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.ThreeElementPush_10_0_5 (24 ms)
+[----------] 1 test from HeapTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (42 ms total)
+[  PASSED  ] 1 test.
+==2549== 
+==2549== HEAP SUMMARY:
+==2549==     in use at exit: 0 bytes in 0 blocks
+==2549==   total heap usage: 412 allocs, 412 frees, 129,226 bytes allocated
+==2549== 
+==2549== All heap blocks were freed -- no leaks are possible
+==2549== 
+==2549== For lists of detected and suppressed errors, rerun with: -s
+==2549== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_0_5" end time: Feb 21 03:13 UTC
+"HeapTest.ThreeElementPush_10_0_5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/21 Testing: HeapTest.ThreeElementPush_10_5_0
+17/21 Test: HeapTest.ThreeElementPush_10_5_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_5_0"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.ThreeElementPush_10_5_0" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2550== Memcheck, a memory error detector
+==2550== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2550== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2550== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_5_0
+==2550== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_5_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_5_0
+Heap()
+push(10)
+push(5)
+trickling up
+push(0)
+trickling up
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 10
+pop()
+best element: 5
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.ThreeElementPush_10_5_0 (18 ms)
+[----------] 1 test from HeapTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (38 ms total)
+[  PASSED  ] 1 test.
+==2550== 
+==2550== HEAP SUMMARY:
+==2550==     in use at exit: 0 bytes in 0 blocks
+==2550==   total heap usage: 412 allocs, 412 frees, 129,226 bytes allocated
+==2550== 
+==2550== All heap blocks were freed -- no leaks are possible
+==2550== 
+==2550== For lists of detected and suppressed errors, rerun with: -s
+==2550== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ThreeElementPush_10_5_0" end time: Feb 21 03:13 UTC
+"HeapTest.ThreeElementPush_10_5_0" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/21 Testing: HeapTest.GreaterComparator
+18/21 Test: HeapTest.GreaterComparator
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.GreaterComparator"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.GreaterComparator" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2551== Memcheck, a memory error detector
+==2551== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2551== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2551== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.GreaterComparator
+==2551== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.GreaterComparator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.GreaterComparator
+Heap()
+push(10)
+push(1000)
+trickling up
+push(100)
+pop()
+best element: 1000
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 10
+pop()
+best element: 100
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.GreaterComparator (18 ms)
+[----------] 1 test from HeapTest (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (35 ms total)
+[  PASSED  ] 1 test.
+==2551== 
+==2551== HEAP SUMMARY:
+==2551==     in use at exit: 0 bytes in 0 blocks
+==2551==   total heap usage: 412 allocs, 412 frees, 129,138 bytes allocated
+==2551== 
+==2551== All heap blocks were freed -- no leaks are possible
+==2551== 
+==2551== For lists of detected and suppressed errors, rerun with: -s
+==2551== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.GreaterComparator" end time: Feb 21 03:13 UTC
+"HeapTest.GreaterComparator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/21 Testing: HeapTest.StringStorage
+19/21 Test: HeapTest.StringStorage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.StringStorage"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.StringStorage" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2552== Memcheck, a memory error detector
+==2552== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2552== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2552== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.StringStorage
+==2552== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.StringStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.StringStorage
+Heap()
+push(blah)
+push(bluh)
+push(bloh)
+pop()
+best element: blah
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: bluh
+pop()
+best element: bloh
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.StringStorage (15 ms)
+[----------] 1 test from HeapTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+==2552== 
+==2552== HEAP SUMMARY:
+==2552==     in use at exit: 0 bytes in 0 blocks
+==2552==   total heap usage: 412 allocs, 412 frees, 129,306 bytes allocated
+==2552== 
+==2552== All heap blocks were freed -- no leaks are possible
+==2552== 
+==2552== For lists of detected and suppressed errors, rerun with: -s
+==2552== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.StringStorage" end time: Feb 21 03:13 UTC
+"HeapTest.StringStorage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/21 Testing: HeapTest.FiveElementPush_TrinaryHeap
+20/21 Test: HeapTest.FiveElementPush_TrinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapTest.FiveElementPush_TrinaryHeap"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapTest.FiveElementPush_TrinaryHeap" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2553== Memcheck, a memory error detector
+==2553== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2553== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2553== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapTest.FiveElementPush_TrinaryHeap
+==2553== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.FiveElementPush_TrinaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.FiveElementPush_TrinaryHeap
+Heap()
+push(0)
+push(5)
+push(10)
+push(15)
+push(20)
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 4
+Better: 5
+20
+5
+swapping 5 and 20
+5
+20
+pop()
+best element: 5
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 3
+Better: 10
+15
+10
+swapping 10 and 15
+10
+15
+pop()
+best element: 10
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 2
+Better: 20
+pop()
+best element: 15
+swapped
+erased
+~Heap()
+[       OK ] HeapTest.FiveElementPush_TrinaryHeap (21 ms)
+[----------] 1 test from HeapTest (24 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (41 ms total)
+[  PASSED  ] 1 test.
+==2553== 
+==2553== HEAP SUMMARY:
+==2553==     in use at exit: 0 bytes in 0 blocks
+==2553==   total heap usage: 413 allocs, 413 frees, 129,378 bytes allocated
+==2553== 
+==2553== All heap blocks were freed -- no leaks are possible
+==2553== 
+==2553== For lists of detected and suppressed errors, rerun with: -s
+==2553== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.68 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.FiveElementPush_TrinaryHeap" end time: Feb 21 03:13 UTC
+"HeapTest.FiveElementPush_TrinaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/21 Testing: HeapStress.50x50RandomElements_QuaternaryHeap
+21/21 Test: HeapStress.50x50RandomElements_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"
+Directory: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests
+"HeapStress.50x50RandomElements_QuaternaryHeap" start time: Feb 21 03:13 UTC
+Output:
+----------------------------------------------------------
+==2554== Memcheck, a memory error detector
+==2554== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2554== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2554== Command: /work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap
+==2554== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_QuaternaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_QuaternaryHeap
+Heap()
+push(220)
+push(219)
+trickling up
+push(449)
+push(447)
+push(241)
+push(383)
+push(115)
+trickling up
+trickling up
+push(331)
+push(477)
+push(211)
+trickling up
+push(169)
+trickling up
+push(352)
+push(324)
+push(322)
+trickling up
+push(420)
+push(447)
+push(455)
+push(108)
+trickling up
+trickling up
+push(500)
+push(274)
+push(162)
+push(157)
+trickling up
+trickling up
+push(101)
+trickling up
+trickling up
+trickling up
+push(473)
+push(433)
+push(218)
+trickling up
+push(402)
+push(296)
+push(390)
+push(433)
+push(267)
+trickling up
+push(242)
+trickling up
+push(389)
+push(89)
+trickling up
+trickling up
+trickling up
+push(304)
+push(98)
+trickling up
+trickling up
+push(343)
+push(122)
+trickling up
+trickling up
+push(133)
+trickling up
+push(495)
+push(277)
+push(497)
+push(383)
+push(30)
+trickling up
+trickling up
+trickling up
+push(85)
+trickling up
+trickling up
+push(356)
+push(467)
+push(387)
+push(424)
+push(367)
+pop()
+best element: 30
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 85
+367
+85
+swapping 85 and 367
+85
+367
+pop()
+best element: 85
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 98
+424
+98
+swapping 98 and 424
+98
+424
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 98, expected 89)
+Expected: true
+~Heap()
+Heap()
+push(55)
+push(153)
+push(347)
+push(467)
+push(438)
+push(28)
+trickling up
+trickling up
+push(205)
+push(189)
+push(308)
+push(33)
+trickling up
+push(297)
+push(411)
+push(205)
+push(20)
+trickling up
+trickling up
+push(253)
+push(15)
+trickling up
+trickling up
+push(369)
+push(183)
+trickling up
+push(133)
+trickling up
+push(155)
+push(428)
+push(405)
+push(302)
+push(235)
+push(500)
+push(234)
+push(69)
+trickling up
+push(333)
+push(119)
+push(430)
+push(487)
+push(57)
+trickling up
+push(466)
+push(166)
+trickling up
+push(288)
+push(275)
+push(179)
+push(106)
+trickling up
+push(117)
+push(466)
+push(466)
+push(231)
+trickling up
+push(336)
+push(473)
+push(211)
+trickling up
+push(448)
+push(330)
+trickling up
+push(295)
+trickling up
+push(392)
+push(445)
+pop()
+best element: 15
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 33
+445
+33
+swapping 33 and 445
+33
+445
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 1 elements!  Was 33, expected 20)
+Expected: true
+~Heap()
+Heap()
+push(145)
+push(323)
+push(49)
+trickling up
+push(112)
+push(124)
+push(38)
+trickling up
+trickling up
+push(198)
+push(486)
+push(36)
+trickling up
+trickling up
+push(334)
+push(109)
+trickling up
+push(80)
+trickling up
+push(496)
+push(372)
+push(316)
+push(164)
+push(324)
+push(300)
+push(256)
+push(423)
+push(361)
+push(208)
+trickling up
+push(30)
+trickling up
+trickling up
+trickling up
+push(55)
+push(203)
+push(109)
+trickling up
+push(41)
+trickling up
+push(460)
+push(109)
+push(29)
+trickling up
+trickling up
+trickling up
+push(410)
+push(337)
+push(48)
+push(370)
+push(327)
+push(197)
+push(441)
+push(318)
+trickling up
+push(26)
+trickling up
+trickling up
+trickling up
+push(140)
+push(496)
+push(470)
+push(22)
+trickling up
+trickling up
+trickling up
+push(355)
+push(100)
+push(193)
+push(411)
+push(150)
+push(300)
+push(424)
+trickling up
+pop()
+best element: 22
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 26
+496
+26
+swapping 26 and 496
+26
+496
+pop()
+best element: 26
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 30
+300
+30
+swapping 30 and 300
+30
+300
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 30, expected 29)
+Expected: true
+~Heap()
+Heap()
+push(189)
+push(360)
+push(124)
+trickling up
+push(258)
+push(149)
+push(135)
+trickling up
+push(90)
+trickling up
+trickling up
+push(313)
+push(410)
+push(210)
+push(54)
+trickling up
+trickling up
+push(257)
+push(157)
+push(486)
+push(439)
+push(194)
+trickling up
+push(120)
+trickling up
+push(346)
+push(412)
+push(335)
+push(101)
+trickling up
+push(177)
+trickling up
+push(147)
+trickling up
+push(411)
+push(236)
+push(303)
+push(36)
+trickling up
+trickling up
+trickling up
+push(189)
+push(356)
+push(148)
+trickling up
+push(191)
+push(52)
+trickling up
+trickling up
+push(322)
+push(421)
+push(63)
+trickling up
+push(446)
+push(53)
+trickling up
+push(278)
+push(289)
+push(261)
+push(78)
+trickling up
+trickling up
+push(486)
+push(454)
+push(209)
+push(408)
+push(337)
+push(418)
+push(213)
+trickling up
+push(61)
+trickling up
+trickling up
+push(385)
+pop()
+best element: 36
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 52
+385
+52
+swapping 52 and 385
+52
+385
+pop()
+best element: 52
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 61
+213
+61
+swapping 61 and 213
+61
+213
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 61, expected 53)
+Expected: true
+~Heap()
+Heap()
+push(329)
+push(5)
+trickling up
+push(192)
+push(186)
+push(39)
+push(356)
+push(293)
+trickling up
+push(126)
+trickling up
+push(243)
+push(194)
+push(379)
+push(295)
+push(324)
+push(449)
+push(476)
+push(431)
+push(179)
+trickling up
+push(75)
+push(25)
+trickling up
+push(366)
+push(163)
+push(242)
+trickling up
+push(211)
+trickling up
+push(31)
+trickling up
+trickling up
+push(292)
+push(185)
+trickling up
+push(291)
+push(1)
+trickling up
+trickling up
+trickling up
+push(303)
+push(153)
+trickling up
+push(424)
+push(372)
+push(20)
+trickling up
+push(225)
+trickling up
+push(377)
+push(104)
+trickling up
+push(385)
+push(177)
+trickling up
+trickling up
+push(22)
+trickling up
+trickling up
+push(431)
+push(246)
+push(277)
+trickling up
+push(327)
+push(379)
+push(107)
+trickling up
+push(220)
+trickling up
+push(139)
+trickling up
+push(169)
+push(350)
+push(219)
+trickling up
+pop()
+best element: 1
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 5
+324
+5
+swapping 5 and 324
+5
+324
+pop()
+best element: 5
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 22
+350
+22
+swapping 22 and 350
+22
+350
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 22, expected 20)
+Expected: true
+~Heap()
+Heap()
+push(45)
+push(76)
+push(64)
+push(129)
+push(21)
+trickling up
+push(268)
+push(355)
+push(143)
+push(32)
+trickling up
+push(133)
+push(101)
+push(73)
+push(456)
+push(14)
+trickling up
+trickling up
+push(481)
+push(46)
+push(88)
+push(362)
+push(225)
+push(74)
+push(196)
+push(89)
+trickling up
+push(153)
+push(10)
+trickling up
+trickling up
+trickling up
+push(297)
+push(323)
+trickling up
+push(105)
+trickling up
+push(214)
+push(56)
+trickling up
+push(247)
+push(121)
+trickling up
+push(258)
+push(75)
+trickling up
+push(37)
+trickling up
+push(303)
+push(228)
+push(49)
+push(23)
+trickling up
+trickling up
+push(203)
+push(83)
+push(202)
+push(30)
+trickling up
+push(428)
+push(330)
+push(176)
+push(257)
+push(361)
+push(299)
+push(203)
+push(280)
+trickling up
+pop()
+best element: 10
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 14
+456
+14
+swapping 14 and 456
+14
+456
+pop()
+best element: 14
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 23
+203
+23
+swapping 23 and 203
+23
+203
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 23, expected 21)
+Expected: true
+~Heap()
+Heap()
+push(425)
+push(407)
+trickling up
+push(89)
+trickling up
+push(296)
+push(27)
+trickling up
+push(55)
+trickling up
+push(181)
+push(410)
+push(137)
+push(464)
+push(265)
+trickling up
+push(12)
+trickling up
+trickling up
+push(153)
+push(411)
+push(152)
+trickling up
+push(360)
+push(55)
+trickling up
+push(106)
+push(125)
+push(437)
+push(459)
+push(16)
+trickling up
+trickling up
+push(132)
+push(251)
+push(359)
+push(275)
+push(433)
+push(493)
+push(404)
+push(211)
+trickling up
+push(105)
+trickling up
+push(417)
+push(83)
+trickling up
+push(353)
+push(23)
+trickling up
+push(388)
+push(19)
+trickling up
+push(58)
+trickling up
+push(100)
+push(182)
+push(500)
+push(412)
+push(186)
+trickling up
+push(129)
+trickling up
+push(381)
+push(43)
+trickling up
+push(237)
+push(482)
+push(255)
+push(137)
+trickling up
+pop()
+best element: 12
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 16
+153
+16
+swapping 16 and 153
+16
+153
+pop()
+best element: 16
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 27
+255
+27
+swapping 27 and 255
+27
+255
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 27, expected 19)
+Expected: true
+~Heap()
+Heap()
+push(5)
+push(53)
+push(141)
+push(491)
+push(4)
+trickling up
+push(296)
+push(410)
+push(125)
+push(188)
+push(226)
+push(81)
+trickling up
+push(366)
+push(490)
+push(48)
+trickling up
+push(494)
+push(378)
+push(235)
+push(27)
+push(300)
+push(164)
+push(406)
+push(98)
+trickling up
+push(83)
+trickling up
+push(23)
+trickling up
+trickling up
+push(46)
+trickling up
+push(383)
+trickling up
+push(26)
+trickling up
+push(213)
+push(25)
+trickling up
+push(102)
+trickling up
+push(23)
+trickling up
+trickling up
+push(100)
+push(59)
+push(370)
+push(27)
+trickling up
+push(33)
+push(150)
+push(57)
+trickling up
+trickling up
+push(261)
+push(328)
+push(294)
+push(134)
+trickling up
+push(77)
+trickling up
+push(320)
+push(450)
+push(154)
+trickling up
+push(173)
+push(370)
+push(376)
+push(420)
+trickling up
+pop()
+best element: 4
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 23
+490
+23
+swapping 23 and 490
+23
+490
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 1 elements!  Was 23, expected 5)
+Expected: true
+~Heap()
+Heap()
+push(335)
+push(211)
+trickling up
+push(175)
+trickling up
+push(467)
+push(447)
+push(44)
+trickling up
+trickling up
+push(139)
+trickling up
+push(6)
+trickling up
+trickling up
+push(26)
+trickling up
+push(402)
+push(459)
+push(129)
+trickling up
+push(236)
+push(498)
+push(3)
+trickling up
+trickling up
+push(431)
+push(244)
+push(239)
+trickling up
+push(421)
+push(32)
+trickling up
+push(385)
+push(311)
+trickling up
+push(173)
+trickling up
+push(481)
+push(179)
+push(443)
+push(364)
+push(263)
+push(331)
+push(317)
+push(301)
+push(424)
+push(362)
+push(397)
+push(350)
+push(49)
+push(8)
+trickling up
+trickling up
+push(66)
+trickling up
+trickling up
+push(349)
+push(153)
+push(147)
+push(238)
+trickling up
+push(493)
+push(380)
+push(434)
+push(142)
+trickling up
+push(371)
+push(448)
+push(177)
+push(470)
+pop()
+best element: 3
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 8
+470
+8
+swapping 8 and 470
+8
+470
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 1 elements!  Was 8, expected 6)
+Expected: true
+~Heap()
+Heap()
+push(107)
+push(238)
+push(455)
+push(446)
+push(409)
+push(13)
+trickling up
+trickling up
+push(452)
+push(351)
+push(354)
+push(293)
+trickling up
+push(59)
+trickling up
+push(237)
+push(46)
+trickling up
+push(232)
+trickling up
+push(281)
+push(124)
+trickling up
+push(286)
+push(360)
+trickling up
+push(19)
+trickling up
+push(137)
+push(163)
+push(465)
+push(145)
+trickling up
+push(459)
+push(255)
+push(333)
+trickling up
+push(152)
+trickling up
+push(161)
+push(152)
+trickling up
+push(269)
+trickling up
+push(71)
+trickling up
+trickling up
+push(133)
+push(18)
+trickling up
+trickling up
+push(443)
+push(200)
+trickling up
+push(1)
+trickling up
+trickling up
+trickling up
+push(374)
+push(401)
+trickling up
+push(428)
+push(309)
+trickling up
+push(327)
+push(476)
+push(484)
+push(144)
+trickling up
+push(322)
+push(331)
+push(372)
+push(395)
+push(416)
+push(29)
+trickling up
+trickling up
+pop()
+best element: 1
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 13
+59
+13
+swapping 13 and 59
+13
+59
+pop()
+best element: 13
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 29
+416
+29
+swapping 29 and 416
+29
+416
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 29, expected 18)
+Expected: true
+~Heap()
+Heap()
+push(299)
+push(425)
+push(163)
+trickling up
+push(421)
+push(321)
+push(370)
+trickling up
+push(86)
+trickling up
+trickling up
+push(92)
+trickling up
+push(397)
+push(382)
+push(467)
+push(325)
+push(84)
+trickling up
+trickling up
+push(118)
+trickling up
+push(336)
+push(221)
+push(384)
+push(117)
+trickling up
+push(297)
+push(265)
+push(207)
+push(145)
+trickling up
+push(275)
+push(455)
+push(322)
+push(209)
+trickling up
+push(288)
+push(496)
+push(420)
+push(342)
+push(284)
+push(40)
+trickling up
+trickling up
+trickling up
+push(432)
+push(104)
+trickling up
+push(124)
+push(355)
+push(24)
+trickling up
+trickling up
+trickling up
+push(223)
+trickling up
+push(26)
+trickling up
+trickling up
+push(331)
+push(468)
+push(60)
+trickling up
+push(449)
+push(105)
+push(224)
+push(279)
+trickling up
+push(62)
+trickling up
+push(411)
+push(238)
+push(365)
+pop()
+best element: 24
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 26
+365
+26
+swapping 26 and 365
+26
+365
+pop()
+best element: 26
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 40
+238
+40
+swapping 40 and 238
+40
+238
+pop()
+best element: 40
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 238
+411
+238
+swapping 238 and 411
+238
+411
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 238, expected 60)
+Expected: true
+~Heap()
+Heap()
+push(489)
+push(330)
+trickling up
+push(429)
+push(24)
+trickling up
+push(30)
+push(275)
+trickling up
+push(44)
+trickling up
+push(118)
+push(239)
+push(46)
+trickling up
+push(397)
+push(333)
+push(355)
+push(165)
+trickling up
+push(266)
+push(380)
+push(496)
+push(277)
+push(492)
+push(435)
+push(406)
+push(88)
+trickling up
+push(25)
+trickling up
+trickling up
+push(326)
+push(245)
+push(441)
+push(248)
+trickling up
+push(479)
+push(211)
+trickling up
+push(372)
+push(433)
+push(256)
+push(428)
+push(267)
+push(326)
+push(284)
+push(435)
+push(179)
+trickling up
+push(495)
+push(262)
+push(487)
+push(435)
+push(139)
+trickling up
+push(126)
+trickling up
+push(346)
+push(48)
+trickling up
+push(267)
+push(226)
+push(427)
+push(93)
+trickling up
+pop()
+best element: 24
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 25
+355
+25
+swapping 25 and 355
+25
+355
+pop()
+best element: 25
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 46
+427
+46
+swapping 46 and 427
+46
+427
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 46, expected 30)
+Expected: true
+~Heap()
+Heap()
+push(441)
+push(80)
+trickling up
+push(490)
+push(376)
+push(433)
+push(368)
+trickling up
+push(419)
+push(476)
+push(455)
+push(388)
+trickling up
+push(431)
+push(8)
+trickling up
+trickling up
+push(235)
+push(476)
+push(221)
+trickling up
+push(11)
+trickling up
+push(300)
+push(179)
+trickling up
+push(34)
+trickling up
+push(140)
+push(209)
+push(199)
+trickling up
+trickling up
+push(451)
+push(8)
+trickling up
+trickling up
+trickling up
+push(55)
+trickling up
+push(323)
+trickling up
+push(456)
+push(178)
+trickling up
+push(97)
+trickling up
+push(107)
+trickling up
+push(84)
+trickling up
+push(205)
+push(477)
+push(125)
+trickling up
+push(486)
+push(225)
+push(379)
+push(177)
+trickling up
+push(446)
+push(78)
+trickling up
+trickling up
+push(289)
+push(195)
+trickling up
+push(430)
+push(87)
+trickling up
+push(62)
+trickling up
+trickling up
+push(342)
+trickling up
+push(446)
+push(91)
+trickling up
+push(296)
+push(55)
+trickling up
+trickling up
+pop()
+best element: 8
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 8
+235
+8
+swapping 8 and 235
+8
+235
+pop()
+best element: 8
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 55
+296
+55
+swapping 55 and 296
+55
+296
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 55, expected 11)
+Expected: true
+~Heap()
+Heap()
+push(364)
+push(17)
+trickling up
+push(262)
+push(352)
+push(89)
+push(115)
+trickling up
+push(358)
+push(49)
+trickling up
+push(444)
+push(409)
+push(228)
+trickling up
+push(355)
+push(209)
+trickling up
+push(272)
+trickling up
+push(212)
+trickling up
+push(397)
+push(69)
+trickling up
+push(182)
+push(280)
+push(197)
+push(245)
+push(62)
+trickling up
+push(308)
+push(61)
+trickling up
+push(312)
+push(483)
+push(43)
+trickling up
+trickling up
+push(400)
+push(453)
+push(330)
+push(343)
+push(453)
+push(413)
+push(455)
+push(423)
+trickling up
+push(261)
+trickling up
+push(106)
+trickling up
+push(238)
+trickling up
+push(438)
+push(401)
+push(55)
+trickling up
+trickling up
+push(6)
+trickling up
+trickling up
+trickling up
+push(160)
+push(401)
+push(350)
+push(491)
+push(37)
+trickling up
+push(123)
+push(130)
+push(39)
+trickling up
+pop()
+best element: 6
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 17
+228
+17
+swapping 17 and 228
+17
+228
+pop()
+best element: 17
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 43
+130
+43
+swapping 43 and 130
+43
+130
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 43, expected 37)
+Expected: true
+~Heap()
+Heap()
+push(259)
+push(335)
+push(474)
+push(92)
+trickling up
+push(383)
+push(391)
+push(141)
+trickling up
+push(287)
+push(110)
+trickling up
+push(221)
+trickling up
+push(343)
+push(92)
+trickling up
+trickling up
+push(83)
+trickling up
+trickling up
+push(50)
+trickling up
+trickling up
+push(196)
+push(110)
+push(309)
+push(417)
+push(206)
+trickling up
+push(213)
+push(1)
+trickling up
+trickling up
+push(378)
+trickling up
+push(442)
+push(499)
+push(443)
+push(0)
+trickling up
+trickling up
+trickling up
+push(150)
+push(488)
+push(295)
+push(209)
+trickling up
+push(490)
+push(341)
+push(423)
+push(377)
+push(32)
+trickling up
+push(290)
+push(147)
+push(197)
+trickling up
+push(144)
+trickling up
+push(240)
+push(412)
+push(195)
+trickling up
+push(313)
+push(334)
+push(55)
+trickling up
+trickling up
+push(378)
+push(0)
+trickling up
+trickling up
+trickling up
+push(417)
+push(472)
+push(86)
+trickling up
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 0
+92
+0
+swapping 0 and 92
+0
+92
+pop()
+best element: 0
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 1
+472
+1
+swapping 1 and 472
+1
+472
+pop()
+best element: 1
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 92
+417
+92
+swapping 92 and 417
+92
+417
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 92, expected 32)
+Expected: true
+~Heap()
+Heap()
+push(465)
+push(57)
+trickling up
+push(404)
+push(365)
+push(316)
+push(263)
+trickling up
+push(371)
+push(109)
+trickling up
+push(380)
+push(277)
+trickling up
+push(70)
+trickling up
+push(198)
+push(162)
+push(210)
+trickling up
+push(124)
+trickling up
+push(155)
+push(254)
+push(342)
+push(243)
+trickling up
+push(404)
+push(58)
+trickling up
+push(496)
+push(131)
+trickling up
+push(304)
+push(26)
+trickling up
+trickling up
+trickling up
+push(223)
+trickling up
+push(442)
+push(434)
+push(466)
+push(339)
+push(255)
+trickling up
+push(336)
+push(251)
+trickling up
+push(423)
+push(440)
+push(221)
+trickling up
+push(431)
+push(312)
+trickling up
+push(349)
+push(66)
+trickling up
+trickling up
+push(483)
+push(245)
+trickling up
+push(357)
+push(499)
+push(250)
+push(307)
+push(235)
+push(214)
+push(226)
+push(322)
+pop()
+best element: 26
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 57
+322
+57
+swapping 57 and 322
+57
+322
+pop()
+best element: 57
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 66
+226
+66
+swapping 66 and 226
+66
+226
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 66, expected 58)
+Expected: true
+~Heap()
+Heap()
+push(46)
+push(99)
+push(226)
+push(283)
+push(384)
+push(498)
+push(313)
+push(162)
+push(405)
+push(238)
+push(263)
+push(369)
+push(292)
+push(432)
+push(262)
+trickling up
+push(182)
+trickling up
+push(368)
+push(237)
+trickling up
+push(386)
+push(307)
+push(300)
+push(126)
+trickling up
+push(167)
+push(118)
+trickling up
+push(172)
+push(252)
+trickling up
+push(4)
+trickling up
+trickling up
+trickling up
+push(428)
+push(339)
+push(252)
+push(250)
+push(88)
+trickling up
+push(247)
+push(188)
+trickling up
+push(138)
+trickling up
+push(381)
+push(303)
+push(195)
+trickling up
+trickling up
+push(176)
+trickling up
+trickling up
+push(454)
+push(309)
+push(214)
+trickling up
+push(297)
+push(468)
+push(35)
+trickling up
+trickling up
+push(293)
+trickling up
+push(160)
+trickling up
+push(230)
+push(242)
+push(483)
+pop()
+best element: 4
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 35
+483
+35
+swapping 35 and 483
+35
+483
+pop()
+best element: 35
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 46
+242
+46
+swapping 46 and 242
+46
+242
+pop()
+best element: 46
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 242
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 230, expected 88)
+Expected: true
+~Heap()
+Heap()
+push(436)
+push(335)
+trickling up
+push(207)
+trickling up
+push(494)
+push(279)
+push(445)
+push(216)
+trickling up
+push(65)
+trickling up
+trickling up
+push(339)
+push(479)
+push(346)
+push(208)
+trickling up
+push(143)
+trickling up
+push(156)
+trickling up
+push(113)
+trickling up
+push(247)
+push(417)
+push(101)
+trickling up
+push(78)
+trickling up
+push(101)
+push(464)
+push(382)
+trickling up
+push(215)
+trickling up
+push(296)
+push(255)
+push(364)
+trickling up
+push(117)
+trickling up
+trickling up
+push(49)
+trickling up
+trickling up
+trickling up
+push(174)
+push(437)
+push(81)
+trickling up
+push(66)
+trickling up
+push(118)
+push(116)
+trickling up
+push(450)
+push(263)
+push(379)
+push(444)
+trickling up
+push(351)
+trickling up
+push(55)
+trickling up
+trickling up
+push(137)
+trickling up
+push(342)
+trickling up
+push(335)
+trickling up
+push(479)
+push(138)
+trickling up
+push(160)
+trickling up
+push(94)
+trickling up
+push(36)
+trickling up
+trickling up
+trickling up
+push(230)
+push(480)
+pop()
+best element: 36
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 49
+480
+49
+swapping 49 and 480
+49
+480
+pop()
+best element: 49
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 65
+230
+65
+swapping 65 and 230
+65
+230
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 65, expected 55)
+Expected: true
+~Heap()
+Heap()
+push(275)
+push(35)
+trickling up
+push(354)
+push(420)
+push(145)
+push(60)
+trickling up
+push(255)
+push(285)
+push(447)
+push(218)
+trickling up
+push(449)
+push(9)
+trickling up
+trickling up
+push(62)
+push(20)
+trickling up
+push(103)
+push(124)
+push(25)
+push(46)
+trickling up
+push(220)
+push(348)
+push(14)
+trickling up
+push(72)
+trickling up
+push(228)
+push(227)
+push(325)
+push(108)
+trickling up
+push(139)
+push(177)
+push(338)
+push(246)
+trickling up
+push(296)
+push(457)
+push(12)
+trickling up
+trickling up
+push(383)
+trickling up
+push(279)
+trickling up
+push(487)
+push(129)
+trickling up
+push(201)
+trickling up
+push(207)
+push(276)
+push(142)
+trickling up
+push(153)
+trickling up
+push(347)
+push(293)
+push(220)
+push(137)
+trickling up
+push(78)
+trickling up
+push(227)
+push(272)
+push(379)
+pop()
+best element: 9
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 12
+379
+12
+swapping 12 and 379
+12
+379
+pop()
+best element: 12
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 35
+272
+35
+swapping 35 and 272
+35
+272
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 35, expected 14)
+Expected: true
+~Heap()
+Heap()
+push(373)
+push(366)
+trickling up
+push(314)
+trickling up
+push(459)
+push(328)
+push(345)
+trickling up
+push(355)
+push(372)
+push(424)
+push(297)
+trickling up
+trickling up
+push(411)
+push(239)
+trickling up
+trickling up
+push(248)
+trickling up
+push(113)
+trickling up
+trickling up
+push(465)
+push(457)
+push(255)
+push(351)
+push(472)
+push(483)
+push(224)
+trickling up
+push(339)
+trickling up
+trickling up
+push(166)
+trickling up
+trickling up
+push(219)
+trickling up
+push(343)
+push(103)
+trickling up
+trickling up
+trickling up
+push(321)
+push(405)
+push(480)
+push(28)
+trickling up
+trickling up
+trickling up
+push(66)
+trickling up
+trickling up
+push(449)
+push(320)
+push(347)
+trickling up
+push(356)
+push(385)
+push(273)
+trickling up
+push(285)
+trickling up
+push(226)
+trickling up
+trickling up
+push(472)
+push(470)
+push(327)
+trickling up
+push(465)
+push(171)
+trickling up
+trickling up
+push(85)
+trickling up
+trickling up
+push(452)
+push(97)
+trickling up
+push(250)
+push(186)
+push(295)
+trickling up
+pop()
+best element: 28
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 66
+297
+66
+swapping 66 and 297
+66
+297
+pop()
+best element: 66
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 85
+186
+85
+swapping 85 and 186
+85
+186
+pop()
+best element: 85
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 186
+250
+186
+swapping 186 and 250
+186
+250
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 186, expected 97)
+Expected: true
+~Heap()
+Heap()
+push(41)
+push(92)
+push(98)
+push(421)
+push(109)
+push(123)
+push(29)
+trickling up
+trickling up
+push(337)
+push(238)
+push(329)
+push(2)
+trickling up
+trickling up
+push(103)
+push(455)
+push(125)
+trickling up
+push(284)
+push(213)
+push(96)
+trickling up
+push(164)
+push(357)
+push(335)
+push(29)
+trickling up
+push(124)
+push(354)
+push(425)
+push(414)
+push(341)
+push(80)
+trickling up
+push(497)
+push(43)
+trickling up
+push(494)
+push(311)
+trickling up
+push(229)
+trickling up
+push(185)
+trickling up
+push(29)
+trickling up
+trickling up
+push(265)
+push(382)
+push(76)
+push(135)
+trickling up
+push(355)
+push(129)
+trickling up
+push(476)
+push(18)
+trickling up
+trickling up
+push(210)
+push(442)
+push(461)
+push(7)
+trickling up
+trickling up
+push(258)
+push(420)
+push(483)
+push(14)
+trickling up
+pop()
+best element: 2
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 7
+455
+7
+swapping 7 and 455
+7
+455
+pop()
+best element: 7
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 29
+483
+29
+swapping 29 and 483
+29
+483
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 29, expected 14)
+Expected: true
+~Heap()
+Heap()
+push(472)
+push(253)
+trickling up
+push(44)
+trickling up
+push(144)
+push(348)
+push(194)
+trickling up
+push(350)
+push(382)
+push(250)
+push(97)
+trickling up
+push(251)
+push(231)
+push(446)
+push(98)
+trickling up
+push(44)
+trickling up
+trickling up
+push(215)
+push(424)
+push(231)
+trickling up
+push(178)
+trickling up
+push(451)
+push(499)
+push(255)
+trickling up
+push(382)
+push(297)
+push(379)
+push(442)
+push(351)
+push(144)
+trickling up
+trickling up
+push(383)
+push(426)
+push(2)
+trickling up
+trickling up
+trickling up
+push(53)
+trickling up
+push(431)
+push(362)
+push(255)
+push(81)
+trickling up
+push(54)
+trickling up
+push(201)
+trickling up
+push(321)
+push(426)
+push(445)
+push(435)
+push(418)
+push(447)
+push(441)
+push(23)
+trickling up
+trickling up
+push(273)
+push(142)
+push(236)
+push(231)
+trickling up
+pop()
+best element: 2
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 23
+446
+23
+swapping 23 and 446
+23
+446
+pop()
+best element: 23
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 44
+236
+44
+swapping 44 and 236
+44
+236
+pop()
+best element: 44
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 236
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 142, expected 44)
+Expected: true
+~Heap()
+Heap()
+push(67)
+push(129)
+push(230)
+push(9)
+trickling up
+push(79)
+push(362)
+push(370)
+push(330)
+push(468)
+push(198)
+trickling up
+push(386)
+push(201)
+push(431)
+push(70)
+push(33)
+trickling up
+push(344)
+push(31)
+trickling up
+push(425)
+push(86)
+push(75)
+trickling up
+push(350)
+push(225)
+trickling up
+push(302)
+push(359)
+push(457)
+push(434)
+push(178)
+trickling up
+push(358)
+push(281)
+push(125)
+trickling up
+trickling up
+push(458)
+push(458)
+push(135)
+push(446)
+trickling up
+push(376)
+trickling up
+push(87)
+trickling up
+trickling up
+push(357)
+push(425)
+push(214)
+trickling up
+push(476)
+push(49)
+trickling up
+trickling up
+push(152)
+trickling up
+push(180)
+push(401)
+push(144)
+trickling up
+push(126)
+trickling up
+push(392)
+push(188)
+push(140)
+push(46)
+trickling up
+trickling up
+pop()
+best element: 9
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 46
+431
+46
+swapping 46 and 431
+46
+431
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 1 elements!  Was 46, expected 31)
+Expected: true
+~Heap()
+Heap()
+push(357)
+push(455)
+push(128)
+trickling up
+push(61)
+trickling up
+push(497)
+push(341)
+trickling up
+push(200)
+trickling up
+push(371)
+push(354)
+push(207)
+trickling up
+push(312)
+push(395)
+push(10)
+trickling up
+trickling up
+push(92)
+trickling up
+push(38)
+trickling up
+push(56)
+push(304)
+push(372)
+trickling up
+push(25)
+trickling up
+push(405)
+push(66)
+push(13)
+trickling up
+trickling up
+push(457)
+push(485)
+push(253)
+push(40)
+trickling up
+push(204)
+push(205)
+push(344)
+push(402)
+push(234)
+trickling up
+push(11)
+trickling up
+trickling up
+push(293)
+push(185)
+trickling up
+push(466)
+push(276)
+push(276)
+push(221)
+trickling up
+push(191)
+trickling up
+push(330)
+push(414)
+push(186)
+trickling up
+push(274)
+push(284)
+push(461)
+push(75)
+trickling up
+push(445)
+push(30)
+trickling up
+trickling up
+push(447)
+push(162)
+trickling up
+pop()
+best element: 10
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 11
+207
+11
+swapping 11 and 207
+11
+207
+pop()
+best element: 11
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 30
+447
+30
+swapping 30 and 447
+30
+447
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 30, expected 13)
+Expected: true
+~Heap()
+Heap()
+push(211)
+push(113)
+trickling up
+push(189)
+push(321)
+push(426)
+push(467)
+push(249)
+push(440)
+push(274)
+push(8)
+trickling up
+trickling up
+push(350)
+push(7)
+trickling up
+trickling up
+push(102)
+push(194)
+trickling up
+push(35)
+trickling up
+push(302)
+push(182)
+push(352)
+trickling up
+push(440)
+push(147)
+trickling up
+push(227)
+push(378)
+trickling up
+push(216)
+trickling up
+push(426)
+push(87)
+trickling up
+trickling up
+push(168)
+trickling up
+push(92)
+trickling up
+push(268)
+push(237)
+push(66)
+trickling up
+trickling up
+push(409)
+push(348)
+push(175)
+push(237)
+trickling up
+push(436)
+push(385)
+push(323)
+push(390)
+push(427)
+push(394)
+push(331)
+push(192)
+trickling up
+push(45)
+trickling up
+push(144)
+push(275)
+push(440)
+push(156)
+push(384)
+push(285)
+push(77)
+trickling up
+pop()
+best element: 7
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 8
+102
+8
+swapping 8 and 102
+8
+102
+pop()
+best element: 8
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 66
+285
+66
+swapping 66 and 285
+66
+285
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 66, expected 35)
+Expected: true
+~Heap()
+Heap()
+push(183)
+push(104)
+trickling up
+push(454)
+push(218)
+push(416)
+push(260)
+push(43)
+trickling up
+trickling up
+push(342)
+push(313)
+push(485)
+push(191)
+trickling up
+push(349)
+push(428)
+push(274)
+push(276)
+push(272)
+push(388)
+push(171)
+trickling up
+push(178)
+push(168)
+trickling up
+push(155)
+trickling up
+push(85)
+trickling up
+trickling up
+push(100)
+trickling up
+push(190)
+push(172)
+push(407)
+push(230)
+push(4)
+trickling up
+trickling up
+trickling up
+push(444)
+push(65)
+trickling up
+push(181)
+push(397)
+push(263)
+push(269)
+trickling up
+push(499)
+push(33)
+trickling up
+trickling up
+push(35)
+trickling up
+push(479)
+trickling up
+push(229)
+trickling up
+push(365)
+push(79)
+trickling up
+trickling up
+push(324)
+trickling up
+push(333)
+push(290)
+trickling up
+push(69)
+trickling up
+trickling up
+push(270)
+trickling up
+push(247)
+trickling up
+push(88)
+trickling up
+push(296)
+push(163)
+trickling up
+pop()
+best element: 4
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 33
+428
+33
+swapping 33 and 428
+33
+428
+pop()
+best element: 33
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 69
+296
+69
+swapping 69 and 296
+69
+296
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 69, expected 35)
+Expected: true
+~Heap()
+Heap()
+push(299)
+push(46)
+trickling up
+push(260)
+push(36)
+trickling up
+push(123)
+push(326)
+push(169)
+trickling up
+push(87)
+trickling up
+push(424)
+push(76)
+trickling up
+push(326)
+push(147)
+push(367)
+push(477)
+push(256)
+push(211)
+push(453)
+push(415)
+push(494)
+push(252)
+push(390)
+push(315)
+trickling up
+push(460)
+push(193)
+trickling up
+push(201)
+push(357)
+push(376)
+push(5)
+trickling up
+trickling up
+trickling up
+push(279)
+push(434)
+push(231)
+push(317)
+push(473)
+push(424)
+trickling up
+push(472)
+push(314)
+trickling up
+push(399)
+push(17)
+trickling up
+trickling up
+push(220)
+push(85)
+push(110)
+push(97)
+trickling up
+push(181)
+push(408)
+push(228)
+push(485)
+push(83)
+trickling up
+push(367)
+push(462)
+push(59)
+trickling up
+pop()
+best element: 5
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 17
+367
+17
+swapping 17 and 367
+17
+367
+pop()
+best element: 17
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 36
+462
+36
+swapping 36 and 462
+36
+462
+pop()
+best element: 36
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 367
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 367, expected 46)
+Expected: true
+~Heap()
+Heap()
+push(433)
+push(157)
+trickling up
+push(366)
+push(314)
+push(404)
+push(281)
+trickling up
+push(23)
+trickling up
+trickling up
+push(133)
+trickling up
+push(25)
+trickling up
+push(227)
+trickling up
+push(33)
+trickling up
+push(482)
+push(398)
+push(67)
+trickling up
+push(472)
+push(424)
+push(44)
+trickling up
+push(71)
+trickling up
+push(203)
+push(343)
+push(128)
+push(33)
+trickling up
+push(108)
+push(155)
+push(337)
+push(469)
+push(65)
+trickling up
+push(396)
+push(183)
+push(446)
+push(296)
+push(368)
+push(439)
+push(94)
+trickling up
+push(347)
+push(488)
+push(70)
+trickling up
+push(385)
+push(187)
+trickling up
+push(170)
+trickling up
+push(348)
+push(265)
+push(111)
+trickling up
+push(364)
+push(451)
+push(147)
+trickling up
+push(346)
+push(87)
+trickling up
+push(3)
+trickling up
+trickling up
+trickling up
+push(244)
+trickling up
+pop()
+best element: 3
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 23
+398
+23
+swapping 23 and 398
+23
+398
+pop()
+best element: 23
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 25
+87
+25
+swapping 25 and 87
+25
+87
+pop()
+best element: 25
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 87
+147
+87
+swapping 87 and 147
+87
+147
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 87, expected 33)
+Expected: true
+~Heap()
+Heap()
+push(393)
+push(309)
+trickling up
+push(345)
+push(138)
+trickling up
+push(10)
+trickling up
+push(374)
+trickling up
+push(294)
+trickling up
+push(95)
+trickling up
+push(57)
+trickling up
+push(108)
+trickling up
+push(39)
+trickling up
+push(335)
+push(277)
+push(123)
+trickling up
+push(116)
+trickling up
+push(317)
+push(325)
+push(120)
+trickling up
+push(252)
+push(225)
+push(168)
+push(437)
+push(248)
+trickling up
+push(481)
+push(64)
+trickling up
+push(457)
+push(429)
+push(15)
+trickling up
+trickling up
+push(169)
+push(316)
+push(230)
+trickling up
+push(247)
+push(329)
+push(63)
+trickling up
+push(218)
+push(298)
+push(148)
+push(270)
+trickling up
+push(184)
+trickling up
+push(64)
+trickling up
+push(338)
+push(119)
+push(6)
+trickling up
+trickling up
+trickling up
+push(328)
+push(297)
+push(132)
+trickling up
+push(295)
+push(7)
+trickling up
+trickling up
+push(58)
+push(274)
+trickling up
+pop()
+best element: 6
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 7
+277
+7
+swapping 7 and 277
+7
+277
+pop()
+best element: 7
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 15
+58
+15
+swapping 15 and 58
+15
+58
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 15, expected 10)
+Expected: true
+~Heap()
+Heap()
+push(305)
+push(327)
+push(480)
+push(105)
+trickling up
+push(154)
+push(97)
+trickling up
+trickling up
+push(30)
+trickling up
+trickling up
+push(393)
+push(217)
+push(222)
+trickling up
+push(248)
+push(240)
+push(488)
+push(50)
+trickling up
+push(372)
+push(25)
+trickling up
+trickling up
+push(201)
+push(303)
+push(300)
+push(187)
+push(404)
+push(50)
+trickling up
+trickling up
+push(118)
+push(144)
+push(265)
+push(480)
+push(88)
+trickling up
+push(297)
+push(200)
+push(157)
+trickling up
+push(145)
+trickling up
+push(438)
+push(106)
+trickling up
+push(22)
+trickling up
+trickling up
+trickling up
+push(46)
+trickling up
+push(434)
+push(158)
+push(165)
+trickling up
+trickling up
+push(36)
+trickling up
+trickling up
+push(256)
+push(55)
+trickling up
+push(27)
+trickling up
+trickling up
+push(53)
+push(211)
+push(215)
+push(158)
+trickling up
+push(114)
+trickling up
+push(54)
+trickling up
+push(375)
+push(308)
+trickling up
+pop()
+best element: 22
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 25
+488
+25
+swapping 25 and 488
+25
+488
+pop()
+best element: 25
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 27
+375
+27
+swapping 27 and 375
+27
+375
+pop()
+best element: 27
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 375
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 114, expected 30)
+Expected: true
+~Heap()
+Heap()
+push(281)
+push(481)
+push(47)
+trickling up
+push(18)
+trickling up
+push(347)
+push(306)
+trickling up
+push(120)
+trickling up
+push(392)
+push(466)
+push(453)
+push(246)
+trickling up
+push(322)
+push(195)
+trickling up
+push(18)
+trickling up
+trickling up
+push(28)
+push(462)
+push(391)
+push(492)
+push(312)
+trickling up
+push(251)
+trickling up
+push(178)
+trickling up
+push(200)
+trickling up
+push(425)
+push(114)
+trickling up
+trickling up
+push(132)
+push(377)
+push(352)
+push(135)
+trickling up
+push(8)
+trickling up
+trickling up
+trickling up
+push(57)
+trickling up
+push(92)
+push(295)
+push(102)
+push(94)
+trickling up
+push(343)
+push(40)
+trickling up
+push(204)
+push(392)
+trickling up
+push(122)
+trickling up
+trickling up
+push(374)
+push(213)
+push(79)
+trickling up
+trickling up
+push(393)
+push(59)
+trickling up
+trickling up
+push(267)
+push(314)
+trickling up
+push(103)
+trickling up
+push(154)
+push(59)
+trickling up
+trickling up
+push(398)
+pop()
+best element: 8
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 18
+398
+18
+swapping 18 and 398
+18
+398
+pop()
+best element: 18
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 59
+103
+59
+swapping 59 and 103
+59
+103
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 59, expected 18)
+Expected: true
+~Heap()
+Heap()
+push(177)
+push(406)
+push(124)
+trickling up
+push(4)
+trickling up
+push(387)
+push(300)
+trickling up
+push(347)
+push(274)
+trickling up
+push(258)
+trickling up
+push(214)
+push(325)
+push(401)
+push(434)
+push(341)
+push(406)
+push(277)
+push(492)
+push(431)
+push(41)
+trickling up
+push(74)
+push(125)
+push(184)
+trickling up
+trickling up
+push(446)
+push(424)
+push(3)
+trickling up
+trickling up
+trickling up
+push(135)
+trickling up
+push(293)
+push(22)
+trickling up
+push(107)
+push(160)
+trickling up
+push(30)
+trickling up
+push(342)
+push(15)
+trickling up
+push(215)
+trickling up
+push(352)
+push(257)
+push(378)
+push(31)
+trickling up
+trickling up
+push(226)
+push(317)
+push(165)
+trickling up
+push(71)
+trickling up
+push(453)
+push(203)
+push(203)
+push(202)
+trickling up
+push(496)
+push(424)
+push(452)
+push(2)
+trickling up
+trickling up
+trickling up
+pop()
+best element: 2
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 3
+434
+3
+swapping 3 and 434
+3
+434
+pop()
+best element: 3
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 4
+452
+4
+swapping 4 and 452
+4
+452
+pop()
+best element: 4
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 434
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 424, expected 15)
+Expected: true
+~Heap()
+Heap()
+push(149)
+push(86)
+trickling up
+push(414)
+push(163)
+push(383)
+push(101)
+trickling up
+push(13)
+trickling up
+trickling up
+push(81)
+trickling up
+push(393)
+push(121)
+trickling up
+push(298)
+push(455)
+push(300)
+push(220)
+push(351)
+push(382)
+push(500)
+push(163)
+trickling up
+push(430)
+push(204)
+push(242)
+push(191)
+push(130)
+trickling up
+push(458)
+push(51)
+trickling up
+trickling up
+push(411)
+push(226)
+push(84)
+trickling up
+push(98)
+push(54)
+trickling up
+push(396)
+push(24)
+trickling up
+trickling up
+push(172)
+push(414)
+push(409)
+push(86)
+trickling up
+push(112)
+push(120)
+trickling up
+trickling up
+push(133)
+push(239)
+push(419)
+push(84)
+trickling up
+trickling up
+push(370)
+push(99)
+trickling up
+push(217)
+push(426)
+trickling up
+push(128)
+trickling up
+push(388)
+push(235)
+push(26)
+trickling up
+trickling up
+pop()
+best element: 13
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 24
+300
+24
+swapping 24 and 300
+24
+300
+pop()
+best element: 24
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 26
+235
+26
+swapping 26 and 235
+26
+235
+pop()
+best element: 26
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 235
+388
+235
+swapping 235 and 388
+235
+388
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 235, expected 51)
+Expected: true
+~Heap()
+Heap()
+push(196)
+push(45)
+trickling up
+push(361)
+push(498)
+push(279)
+push(245)
+push(384)
+push(366)
+push(471)
+push(325)
+trickling up
+push(116)
+trickling up
+push(56)
+trickling up
+push(32)
+trickling up
+trickling up
+push(196)
+trickling up
+push(101)
+trickling up
+push(412)
+push(394)
+push(172)
+trickling up
+push(77)
+trickling up
+push(355)
+push(217)
+push(184)
+trickling up
+trickling up
+push(217)
+push(340)
+push(206)
+push(63)
+trickling up
+trickling up
+push(177)
+trickling up
+push(366)
+push(398)
+push(405)
+push(499)
+push(176)
+trickling up
+push(478)
+push(403)
+trickling up
+push(207)
+trickling up
+push(325)
+push(410)
+push(208)
+trickling up
+push(295)
+push(431)
+push(467)
+push(111)
+trickling up
+push(113)
+push(464)
+push(43)
+trickling up
+trickling up
+push(197)
+push(355)
+push(6)
+trickling up
+trickling up
+trickling up
+push(231)
+push(251)
+pop()
+best element: 6
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 32
+251
+32
+swapping 32 and 251
+32
+251
+pop()
+best element: 32
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 63
+231
+63
+swapping 63 and 231
+63
+231
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 63, expected 43)
+Expected: true
+~Heap()
+Heap()
+push(459)
+push(486)
+push(294)
+trickling up
+push(241)
+trickling up
+push(132)
+trickling up
+push(487)
+push(392)
+trickling up
+push(300)
+trickling up
+push(459)
+push(458)
+trickling up
+push(414)
+trickling up
+push(478)
+push(364)
+trickling up
+push(22)
+trickling up
+trickling up
+push(130)
+trickling up
+push(372)
+push(456)
+push(470)
+push(130)
+trickling up
+push(223)
+push(383)
+push(313)
+trickling up
+push(131)
+trickling up
+trickling up
+push(447)
+push(61)
+trickling up
+trickling up
+push(318)
+trickling up
+push(193)
+trickling up
+push(32)
+trickling up
+trickling up
+push(420)
+push(460)
+push(139)
+trickling up
+push(350)
+push(35)
+trickling up
+push(28)
+trickling up
+trickling up
+push(317)
+push(165)
+push(292)
+push(440)
+trickling up
+push(291)
+trickling up
+trickling up
+push(462)
+push(339)
+trickling up
+push(321)
+trickling up
+push(344)
+push(52)
+trickling up
+trickling up
+push(219)
+trickling up
+push(196)
+trickling up
+push(160)
+trickling up
+push(82)
+trickling up
+push(285)
+push(217)
+trickling up
+pop()
+best element: 22
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 28
+414
+28
+swapping 28 and 414
+28
+414
+pop()
+best element: 28
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 52
+285
+52
+swapping 52 and 285
+52
+285
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 52, expected 32)
+Expected: true
+~Heap()
+Heap()
+push(392)
+push(129)
+trickling up
+push(318)
+push(342)
+push(124)
+trickling up
+push(459)
+push(379)
+trickling up
+push(102)
+trickling up
+trickling up
+push(156)
+push(495)
+push(469)
+push(360)
+push(21)
+trickling up
+trickling up
+push(43)
+trickling up
+push(220)
+push(197)
+push(457)
+push(25)
+trickling up
+push(227)
+push(114)
+push(254)
+push(91)
+trickling up
+trickling up
+push(42)
+trickling up
+trickling up
+push(391)
+push(213)
+push(145)
+trickling up
+push(373)
+push(30)
+trickling up
+trickling up
+push(434)
+push(455)
+push(162)
+trickling up
+push(459)
+push(52)
+trickling up
+push(75)
+trickling up
+push(401)
+push(330)
+push(197)
+push(80)
+trickling up
+trickling up
+push(314)
+push(257)
+push(18)
+trickling up
+trickling up
+trickling up
+push(278)
+trickling up
+push(150)
+trickling up
+push(119)
+trickling up
+push(23)
+trickling up
+push(434)
+push(186)
+trickling up
+push(99)
+trickling up
+push(131)
+push(229)
+trickling up
+pop()
+best element: 18
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 21
+318
+21
+swapping 21 and 318
+21
+318
+pop()
+best element: 21
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 30
+131
+30
+swapping 30 and 131
+30
+131
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 30, expected 23)
+Expected: true
+~Heap()
+Heap()
+push(133)
+push(336)
+push(144)
+push(347)
+push(441)
+push(348)
+push(378)
+push(110)
+trickling up
+trickling up
+push(334)
+push(419)
+push(386)
+push(477)
+push(279)
+push(177)
+trickling up
+push(34)
+trickling up
+trickling up
+push(52)
+trickling up
+push(418)
+push(288)
+trickling up
+push(96)
+trickling up
+push(462)
+push(89)
+trickling up
+push(416)
+push(367)
+push(199)
+trickling up
+push(417)
+push(60)
+trickling up
+trickling up
+push(418)
+push(1)
+trickling up
+trickling up
+trickling up
+push(139)
+push(265)
+trickling up
+push(268)
+push(459)
+push(39)
+trickling up
+push(81)
+trickling up
+push(133)
+push(425)
+push(386)
+push(147)
+trickling up
+push(377)
+push(243)
+push(52)
+trickling up
+trickling up
+push(50)
+trickling up
+trickling up
+push(409)
+push(403)
+push(19)
+trickling up
+trickling up
+push(278)
+trickling up
+push(203)
+trickling up
+push(257)
+push(449)
+push(151)
+trickling up
+pop()
+best element: 1
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 19
+279
+19
+swapping 19 and 279
+19
+279
+pop()
+best element: 19
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 34
+449
+34
+swapping 34 and 449
+34
+449
+pop()
+best element: 34
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 279
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 257, expected 39)
+Expected: true
+~Heap()
+Heap()
+push(427)
+push(97)
+trickling up
+push(252)
+push(117)
+push(111)
+push(180)
+trickling up
+push(279)
+push(445)
+push(423)
+push(119)
+trickling up
+push(81)
+trickling up
+trickling up
+push(397)
+push(145)
+push(418)
+push(235)
+push(111)
+trickling up
+push(71)
+trickling up
+trickling up
+push(74)
+trickling up
+push(226)
+push(15)
+trickling up
+trickling up
+push(201)
+push(297)
+trickling up
+push(48)
+trickling up
+trickling up
+push(488)
+push(446)
+push(374)
+push(492)
+push(495)
+push(330)
+push(22)
+trickling up
+trickling up
+push(348)
+push(439)
+push(89)
+push(352)
+trickling up
+push(86)
+trickling up
+push(186)
+push(500)
+push(258)
+push(277)
+push(464)
+push(291)
+push(132)
+push(366)
+push(129)
+push(105)
+trickling up
+push(302)
+trickling up
+push(381)
+push(473)
+push(187)
+trickling up
+push(182)
+pop()
+best element: 15
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 22
+182
+22
+swapping 22 and 182
+22
+182
+pop()
+best element: 22
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 97
+302
+97
+swapping 97 and 302
+97
+302
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 97, expected 48)
+Expected: true
+~Heap()
+Heap()
+push(345)
+push(137)
+trickling up
+push(237)
+push(88)
+trickling up
+push(224)
+push(6)
+trickling up
+trickling up
+push(146)
+push(433)
+push(405)
+push(136)
+trickling up
+push(13)
+trickling up
+push(332)
+push(389)
+push(334)
+push(287)
+push(45)
+trickling up
+push(83)
+push(161)
+trickling up
+push(224)
+push(5)
+trickling up
+trickling up
+push(171)
+push(349)
+push(118)
+trickling up
+push(156)
+push(426)
+push(34)
+trickling up
+trickling up
+push(393)
+push(168)
+push(358)
+push(394)
+trickling up
+push(458)
+push(480)
+push(433)
+push(206)
+trickling up
+push(96)
+trickling up
+push(124)
+push(425)
+push(217)
+trickling up
+push(440)
+push(141)
+trickling up
+push(56)
+trickling up
+push(239)
+push(261)
+push(209)
+push(280)
+push(130)
+trickling up
+push(106)
+trickling up
+push(460)
+push(216)
+push(3)
+trickling up
+trickling up
+trickling up
+pop()
+best element: 3
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 5
+389
+5
+swapping 5 and 389
+5
+389
+pop()
+best element: 5
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 34
+216
+34
+swapping 34 and 216
+34
+216
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 34, expected 6)
+Expected: true
+~Heap()
+Heap()
+push(4)
+push(347)
+push(478)
+push(238)
+push(225)
+push(250)
+trickling up
+push(305)
+push(62)
+trickling up
+push(426)
+push(411)
+trickling up
+push(370)
+trickling up
+push(499)
+push(488)
+push(6)
+trickling up
+push(429)
+push(330)
+push(428)
+push(90)
+trickling up
+push(430)
+push(337)
+push(176)
+push(370)
+push(106)
+trickling up
+push(193)
+push(391)
+push(91)
+trickling up
+push(450)
+push(417)
+push(23)
+trickling up
+trickling up
+push(338)
+push(68)
+trickling up
+push(74)
+push(88)
+push(27)
+trickling up
+push(18)
+trickling up
+trickling up
+push(456)
+push(255)
+push(173)
+trickling up
+trickling up
+push(384)
+push(488)
+push(242)
+trickling up
+push(302)
+trickling up
+push(105)
+trickling up
+trickling up
+push(276)
+push(209)
+push(247)
+trickling up
+push(282)
+push(452)
+push(196)
+trickling up
+push(139)
+trickling up
+pop()
+best element: 4
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 18
+488
+18
+swapping 18 and 488
+18
+488
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 1 elements!  Was 18, expected 6)
+Expected: true
+~Heap()
+Heap()
+push(481)
+push(79)
+trickling up
+push(281)
+push(156)
+push(496)
+push(62)
+trickling up
+trickling up
+push(411)
+push(482)
+push(467)
+push(282)
+push(214)
+trickling up
+push(373)
+push(135)
+trickling up
+push(217)
+push(318)
+push(356)
+push(438)
+push(149)
+trickling up
+push(155)
+push(195)
+push(201)
+push(288)
+trickling up
+push(337)
+push(207)
+trickling up
+push(23)
+trickling up
+trickling up
+trickling up
+push(326)
+trickling up
+push(350)
+push(463)
+push(143)
+trickling up
+push(234)
+trickling up
+push(62)
+trickling up
+trickling up
+push(414)
+push(51)
+trickling up
+trickling up
+push(290)
+trickling up
+push(336)
+push(344)
+push(131)
+trickling up
+push(385)
+push(10)
+trickling up
+trickling up
+trickling up
+push(187)
+push(412)
+push(147)
+trickling up
+push(247)
+push(181)
+push(376)
+push(457)
+push(442)
+push(385)
+push(422)
+push(332)
+pop()
+best element: 10
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 23
+332
+23
+swapping 23 and 332
+23
+332
+pop()
+best element: 23
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 51
+422
+51
+swapping 51 and 422
+51
+422
+pop()
+best element: 51
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 332
+385
+332
+swapping 332 and 385
+332
+385
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 332, expected 62)
+Expected: true
+~Heap()
+Heap()
+push(242)
+push(14)
+trickling up
+push(163)
+push(39)
+push(27)
+push(400)
+push(327)
+push(298)
+push(98)
+trickling up
+push(303)
+push(351)
+push(35)
+trickling up
+push(401)
+push(98)
+push(336)
+push(176)
+push(327)
+push(337)
+push(242)
+push(390)
+push(228)
+push(63)
+trickling up
+trickling up
+push(124)
+push(121)
+push(115)
+push(241)
+trickling up
+push(100)
+trickling up
+push(164)
+push(161)
+push(372)
+push(208)
+trickling up
+push(11)
+trickling up
+trickling up
+trickling up
+push(17)
+trickling up
+push(382)
+push(150)
+trickling up
+push(416)
+push(285)
+push(142)
+trickling up
+push(245)
+push(131)
+trickling up
+push(56)
+trickling up
+push(469)
+push(263)
+trickling up
+push(356)
+push(353)
+push(425)
+push(469)
+push(9)
+trickling up
+trickling up
+trickling up
+push(422)
+push(251)
+trickling up
+pop()
+best element: 9
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 11
+401
+11
+swapping 11 and 401
+11
+401
+pop()
+best element: 11
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 14
+422
+14
+swapping 14 and 422
+14
+422
+pop()
+best element: 14
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 401
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 163, expected 17)
+Expected: true
+~Heap()
+Heap()
+push(249)
+push(347)
+push(310)
+push(358)
+push(150)
+trickling up
+push(331)
+trickling up
+push(130)
+trickling up
+trickling up
+push(275)
+push(167)
+push(275)
+trickling up
+push(452)
+push(480)
+push(181)
+trickling up
+push(46)
+trickling up
+trickling up
+push(3)
+trickling up
+trickling up
+push(425)
+push(473)
+push(197)
+trickling up
+push(381)
+push(186)
+trickling up
+push(302)
+push(259)
+trickling up
+push(137)
+trickling up
+trickling up
+push(309)
+push(495)
+push(56)
+trickling up
+trickling up
+push(213)
+push(448)
+push(371)
+push(327)
+push(138)
+trickling up
+push(64)
+trickling up
+push(329)
+push(327)
+push(69)
+trickling up
+push(283)
+push(351)
+push(95)
+trickling up
+trickling up
+push(176)
+trickling up
+push(49)
+trickling up
+trickling up
+push(358)
+push(116)
+trickling up
+push(330)
+push(316)
+push(272)
+push(229)
+trickling up
+push(249)
+push(381)
+push(428)
+push(53)
+trickling up
+pop()
+best element: 3
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 49
+275
+49
+swapping 49 and 275
+49
+275
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 1 elements!  Was 49, expected 46)
+Expected: true
+~Heap()
+Heap()
+push(115)
+push(139)
+push(226)
+push(5)
+trickling up
+push(471)
+push(17)
+trickling up
+push(69)
+push(223)
+push(361)
+push(35)
+trickling up
+push(434)
+push(179)
+push(315)
+push(380)
+push(99)
+trickling up
+push(205)
+push(96)
+trickling up
+push(189)
+trickling up
+push(203)
+push(336)
+push(498)
+push(222)
+push(154)
+push(125)
+trickling up
+push(111)
+trickling up
+push(333)
+push(261)
+push(345)
+push(255)
+push(479)
+push(70)
+trickling up
+push(214)
+push(375)
+push(42)
+trickling up
+push(355)
+push(192)
+push(152)
+push(139)
+trickling up
+push(256)
+push(316)
+push(127)
+trickling up
+push(206)
+trickling up
+push(327)
+push(141)
+trickling up
+push(334)
+push(235)
+push(386)
+push(31)
+trickling up
+trickling up
+push(218)
+push(405)
+pop()
+best element: 5
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 17
+405
+17
+swapping 17 and 405
+17
+405
+pop()
+best element: 17
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 31
+218
+31
+swapping 31 and 218
+31
+218
+pop()
+best element: 31
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 218
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 179, expected 35)
+Expected: true
+~Heap()
+Heap()
+push(247)
+push(71)
+trickling up
+push(416)
+push(218)
+push(494)
+push(397)
+push(243)
+trickling up
+push(286)
+push(203)
+trickling up
+push(287)
+trickling up
+push(134)
+trickling up
+push(422)
+push(455)
+push(375)
+push(444)
+push(233)
+push(3)
+trickling up
+trickling up
+push(386)
+trickling up
+push(232)
+trickling up
+push(13)
+trickling up
+push(370)
+push(33)
+trickling up
+trickling up
+push(85)
+trickling up
+push(446)
+push(304)
+push(300)
+push(226)
+trickling up
+push(49)
+trickling up
+push(157)
+push(253)
+trickling up
+push(304)
+push(363)
+push(92)
+trickling up
+push(352)
+push(179)
+trickling up
+push(42)
+trickling up
+push(212)
+push(338)
+trickling up
+push(359)
+push(460)
+push(302)
+trickling up
+push(158)
+trickling up
+push(120)
+trickling up
+trickling up
+push(6)
+trickling up
+trickling up
+push(429)
+push(202)
+trickling up
+push(202)
+trickling up
+push(342)
+push(75)
+trickling up
+push(175)
+trickling up
+pop()
+best element: 3
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 6
+455
+6
+swapping 6 and 455
+6
+455
+pop()
+best element: 6
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 33
+202
+33
+swapping 33 and 202
+33
+202
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 33, expected 13)
+Expected: true
+~Heap()
+Heap()
+push(459)
+push(178)
+trickling up
+push(261)
+push(140)
+trickling up
+push(21)
+trickling up
+push(246)
+trickling up
+push(211)
+trickling up
+push(436)
+push(357)
+push(277)
+push(77)
+trickling up
+push(399)
+push(25)
+trickling up
+push(206)
+push(348)
+push(420)
+push(439)
+push(422)
+push(86)
+trickling up
+push(287)
+push(11)
+trickling up
+trickling up
+push(438)
+trickling up
+push(297)
+trickling up
+push(252)
+trickling up
+push(398)
+push(463)
+push(106)
+trickling up
+trickling up
+push(175)
+trickling up
+push(239)
+push(202)
+trickling up
+push(177)
+trickling up
+push(364)
+push(315)
+push(13)
+trickling up
+trickling up
+push(243)
+push(368)
+push(336)
+push(151)
+trickling up
+push(139)
+trickling up
+push(218)
+push(22)
+trickling up
+trickling up
+push(162)
+trickling up
+push(443)
+push(152)
+trickling up
+push(45)
+trickling up
+push(404)
+push(377)
+trickling up
+push(66)
+trickling up
+push(382)
+push(193)
+pop()
+best element: 11
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 13
+193
+13
+swapping 13 and 193
+13
+193
+pop()
+best element: 13
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 22
+382
+22
+swapping 22 and 382
+22
+382
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 22, expected 21)
+Expected: true
+~Heap()
+Heap()
+push(14)
+push(149)
+push(295)
+push(478)
+push(455)
+push(85)
+trickling up
+push(364)
+push(454)
+push(465)
+push(236)
+trickling up
+push(276)
+push(262)
+push(117)
+trickling up
+push(455)
+trickling up
+push(96)
+trickling up
+push(203)
+push(432)
+push(65)
+trickling up
+push(429)
+push(353)
+push(109)
+push(493)
+push(241)
+push(277)
+push(307)
+push(91)
+trickling up
+push(59)
+trickling up
+trickling up
+push(485)
+push(108)
+push(179)
+trickling up
+push(229)
+push(162)
+trickling up
+push(59)
+trickling up
+trickling up
+push(124)
+trickling up
+push(204)
+push(237)
+push(275)
+push(455)
+push(4)
+trickling up
+trickling up
+trickling up
+push(49)
+trickling up
+push(90)
+push(120)
+trickling up
+push(368)
+push(106)
+trickling up
+push(321)
+push(251)
+trickling up
+push(478)
+push(44)
+trickling up
+push(97)
+push(457)
+pop()
+best element: 4
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 14
+457
+14
+swapping 14 and 457
+14
+457
+pop()
+best element: 14
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 59
+97
+59
+swapping 59 and 97
+59
+97
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 59, expected 44)
+Expected: true
+~Heap()
+Heap()
+push(231)
+push(456)
+push(472)
+push(401)
+push(308)
+push(128)
+trickling up
+trickling up
+push(328)
+push(138)
+trickling up
+push(114)
+trickling up
+trickling up
+push(4)
+trickling up
+trickling up
+push(91)
+trickling up
+push(289)
+push(462)
+push(163)
+trickling up
+push(57)
+trickling up
+push(61)
+push(78)
+push(253)
+trickling up
+push(202)
+trickling up
+push(497)
+push(266)
+push(415)
+trickling up
+push(371)
+trickling up
+push(341)
+trickling up
+push(289)
+trickling up
+push(257)
+trickling up
+push(348)
+push(449)
+push(205)
+trickling up
+push(265)
+push(323)
+push(209)
+trickling up
+push(487)
+push(315)
+push(49)
+trickling up
+trickling up
+push(220)
+push(415)
+push(53)
+trickling up
+trickling up
+push(210)
+push(490)
+push(109)
+push(110)
+trickling up
+push(214)
+push(195)
+push(123)
+push(414)
+push(323)
+push(29)
+trickling up
+trickling up
+push(269)
+push(264)
+trickling up
+pop()
+best element: 4
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 29
+462
+29
+swapping 29 and 462
+29
+462
+pop()
+best element: 29
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 49
+269
+49
+swapping 49 and 269
+49
+269
+pop()
+best element: 49
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 47
+Better: 269
+289
+269
+swapping 269 and 289
+269
+289
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 269, expected 53)
+Expected: true
+~Heap()
+Heap()
+push(306)
+push(60)
+trickling up
+push(84)
+push(151)
+push(218)
+push(427)
+push(385)
+push(149)
+trickling up
+push(147)
+trickling up
+push(189)
+push(74)
+trickling up
+push(104)
+push(11)
+trickling up
+trickling up
+push(325)
+push(210)
+push(301)
+push(119)
+trickling up
+push(356)
+push(169)
+trickling up
+push(461)
+push(496)
+push(52)
+trickling up
+trickling up
+push(119)
+trickling up
+push(264)
+push(40)
+trickling up
+trickling up
+push(141)
+trickling up
+push(335)
+push(323)
+push(311)
+push(89)
+trickling up
+push(137)
+push(360)
+push(233)
+push(190)
+push(59)
+trickling up
+push(312)
+push(37)
+trickling up
+trickling up
+push(114)
+trickling up
+push(451)
+push(384)
+push(397)
+push(493)
+push(421)
+push(239)
+push(408)
+push(394)
+push(496)
+push(348)
+push(289)
+push(422)
+pop()
+best element: 11
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 37
+422
+37
+swapping 37 and 422
+37
+422
+pop()
+best element: 37
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 60
+289
+60
+swapping 60 and 289
+60
+289
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 60, expected 40)
+Expected: true
+~Heap()
+Heap()
+push(487)
+push(316)
+trickling up
+push(55)
+trickling up
+push(242)
+push(452)
+push(18)
+trickling up
+trickling up
+push(438)
+push(143)
+push(488)
+push(254)
+trickling up
+push(290)
+push(373)
+push(500)
+push(457)
+push(322)
+push(267)
+push(68)
+trickling up
+push(96)
+trickling up
+push(481)
+push(361)
+push(443)
+push(27)
+trickling up
+trickling up
+push(97)
+push(328)
+push(43)
+trickling up
+push(91)
+trickling up
+push(185)
+push(184)
+push(113)
+push(341)
+push(405)
+push(456)
+push(344)
+push(109)
+trickling up
+push(44)
+trickling up
+push(16)
+trickling up
+trickling up
+trickling up
+push(69)
+push(112)
+trickling up
+trickling up
+push(211)
+trickling up
+push(413)
+push(492)
+push(491)
+push(394)
+push(275)
+trickling up
+push(391)
+push(71)
+trickling up
+trickling up
+push(98)
+trickling up
+push(279)
+push(366)
+push(42)
+trickling up
+trickling up
+pop()
+best element: 16
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 49
+Better: 18
+500
+18
+swapping 18 and 500
+18
+500
+pop()
+best element: 18
+swapped
+erased
+trickling down...
+Current Index: 0
+Left child index: 1
+Heap Size: 48
+Better: 42
+366
+42
+swapping 42 and 366
+42
+366
+/work/hw-aogara/hw3/hw3_heap_checker/heap_tests/heap_tests.cpp:322: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 42, expected 27)
+Expected: true
+~Heap()
+[  FAILED  ] HeapStress.50x50RandomElements_QuaternaryHeap (206 ms)
+[----------] 1 test from HeapStress (210 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (222 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapStress.50x50RandomElements_QuaternaryHeap
+
+ 1 FAILED TEST
+==2554== 
+==2554== HEAP SUMMARY:
+==2554==     in use at exit: 0 bytes in 0 blocks
+==2554==   total heap usage: 3,120 allocs, 3,120 frees, 700,922 bytes allocated
+==2554== 
+==2554== All heap blocks were freed -- no leaks are possible
+==2554== 
+==2554== For lists of detected and suppressed errors, rerun with: -s
+==2554== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.50x50RandomElements_QuaternaryHeap" end time: Feb 21 03:13 UTC
+"HeapStress.50x50RandomElements_QuaternaryHeap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 21 03:13 UTC

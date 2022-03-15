@@ -1,0 +1,13 @@
+
+
+Why is isLabelType() both a public and a private member of MsgToken?
+
+
+
+
+Question: Cannot open output file of compiled c++
+Error Message: 
+root@docker:/work/hw-aogara/hw1$ g++ -g mytest.cpp -o test
+/usr/bin/ld: cannot open output file test: No such file or directory
+collect2: error: ld returned 1 exit status
+

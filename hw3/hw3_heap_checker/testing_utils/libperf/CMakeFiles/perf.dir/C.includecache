@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/libperf/libperf.c
+assert.h
+-
+fcntl.h
+-
+inttypes.h
+-
+math.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/syscall.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+time.h
+-
+unistd.h
+-
+linux/perf_event.h
+-
+libperf.h
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/libperf/libperf.h
+
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/libperf/libperf.h
+stdint.h
+-
+stdio.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g3 -O0   CMakeFiles/equalpaths_tests.dir/equalpaths_tests.cpp.o  -o equalpaths_tests  libhw4_equalpaths.a ../testing_utils/libtesting_utils.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread ../testing_utils/kwsys/libkwsys.a 

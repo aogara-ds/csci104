@@ -1,0 +1,10 @@
+ce25c61158c6064ac10e195d6c44505ffe5785cb) >> heap.h
+35ae5a101f50b1dfc76949540634bab3b2d917eb) >> stack.h
+942dc8ed434771b9e649731d942d32aa67bff449) >> q2.txt
+810b32c267111cf4122ca9d1b0f0cacb6982d720) >> heap_test.cpp
+6213a993ddadc31be9e0072dfaebee6443326c83) >> solver.h
+7e22313a577aaf2c2a8fec763335e0c7419d4b8f) >> stack_test.cpp
+ecd8e225ba708799a8b1da6239ae3727bedf447f) >> Makefile
+957039fd8d542d56a3085a93ae10122f43ebcf6f) >> solver.h
+525d505bae4819d766b6d8c2ca337d1f3bf3464b) >> llrec.h
+5979d45de2ade4fcff831a5b56b7c2b6f3454ddf) >> llrec.cpp

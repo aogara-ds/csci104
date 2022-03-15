@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g3 -O0   CMakeFiles/avl_tests.dir/test_insert.cpp.o CMakeFiles/avl_tests.dir/test_remove.cpp.o  -o avl_tests  ../testing_utils/libtesting_utils.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread ../testing_utils/kwsys/libkwsys.a 

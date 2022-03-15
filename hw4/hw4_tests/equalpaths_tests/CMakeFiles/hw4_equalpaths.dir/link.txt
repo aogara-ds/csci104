@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhw4_equalpaths.a  CMakeFiles/hw4_equalpaths.dir/work/hw-aogara/hw4/equal-paths.cpp.o
+/usr/bin/ranlib libhw4_equalpaths.a

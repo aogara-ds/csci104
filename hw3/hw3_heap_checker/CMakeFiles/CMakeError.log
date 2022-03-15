@@ -1,0 +1,122 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /work/hw-aogara/hw3/hw3_heap_checker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_24558/fast && /usr/bin/make -f CMakeFiles/cmTC_24558.dir/build.make CMakeFiles/cmTC_24558.dir/build
+make[1]: Entering directory '/work/hw-aogara/hw3/hw3_heap_checker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24558.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_24558.dir/src.c.o   -c /work/hw-aogara/hw3/hw3_heap_checker/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_24558
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24558.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_24558.dir/src.c.o  -o cmTC_24558 
+/usr/bin/ld: CMakeFiles/cmTC_24558.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_24558.dir/build.make:87: cmTC_24558] Error 1
+make[1]: Leaving directory '/work/hw-aogara/hw3/hw3_heap_checker/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_24558/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /work/hw-aogara/hw3/hw3_heap_checker/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca812/fast && /usr/bin/make -f CMakeFiles/cmTC_ca812.dir/build.make CMakeFiles/cmTC_ca812.dir/build
+make[1]: Entering directory '/work/hw-aogara/hw3/hw3_heap_checker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca812.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ca812.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca812
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca812.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ca812.dir/CheckFunctionExists.c.o  -o cmTC_ca812  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_ca812.dir/build.make:87: cmTC_ca812] Error 1
+make[1]: Leaving directory '/work/hw-aogara/hw3/hw3_heap_checker/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ca812/fast] Error 2
+
+
+
+Checking whether C++ compiler has '__int64' failed to compile with the following output:
+Change Dir: /work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_388b6/fast && /usr/bin/make -f CMakeFiles/cmTC_388b6.dir/build.make CMakeFiles/cmTC_388b6.dir/build
+make[1]: Entering directory '/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_388b6.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++  -DTEST_KWSYS_CXX_HAS___INT64  -Wall    -o CMakeFiles/cmTC_388b6.dir/kwsysPlatformTestsCXX.cxx.o -c /work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:24:1: error: '__int64' does not name a type
+   24 | __int64 f(__int64 n)
+      | ^~~~~~~
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function 'int main()':
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:30:3: error: '__int64' was not declared in this scope
+   30 |   __int64 n = 0;
+      |   ^~~~~~~
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:31:29: error: 'n' was not declared in this scope
+   31 |   return static_cast<int>(f(n));
+      |                             ^
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:31:27: error: 'f' was not declared in this scope
+   31 |   return static_cast<int>(f(n));
+      |                           ^
+make[1]: *** [CMakeFiles/cmTC_388b6.dir/build.make:66: CMakeFiles/cmTC_388b6.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_388b6/fast] Error 2
+
+
+
+Checking whether CXX compiler has environ in stdlib.h failed to compile with the following output:
+Change Dir: /work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8578e/fast && /usr/bin/make -f CMakeFiles/cmTC_8578e.dir/build.make CMakeFiles/cmTC_8578e.dir/build
+make[1]: Entering directory '/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8578e.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++  -DTEST_KWSYS_CXX_HAS_ENVIRON_IN_STDLIB_H  -Wall    -o CMakeFiles/cmTC_8578e.dir/kwsysPlatformTestsCXX.cxx.o -c /work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function 'int main()':
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:196:13: error: 'environ' was not declared in this scope; did you mean 'union'?
+  196 |   char* e = environ[0];
+      |             ^~~~~~~
+      |             union
+make[1]: *** [CMakeFiles/cmTC_8578e.dir/build.make:66: CMakeFiles/cmTC_8578e.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8578e/fast] Error 2
+
+
+
+Checking whether CXX compiler struct stat has st_mtimespec member failed to compile with the following output:
+Change Dir: /work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fe9e1/fast && /usr/bin/make -f CMakeFiles/cmTC_fe9e1.dir/build.make CMakeFiles/cmTC_fe9e1.dir/build
+make[1]: Entering directory '/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe9e1.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/bin/c++  -DTEST_KWSYS_CXX_STAT_HAS_ST_MTIMESPEC  -Wall    -o CMakeFiles/cmTC_fe9e1.dir/kwsysPlatformTestsCXX.cxx.o -c /work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx: In function 'int main()':
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:57:15: error: 'struct stat' has no member named 'st_mtimespec'
+   57 |   (void)stat1.st_mtimespec.tv_sec;
+      |               ^~~~~~~~~~~~
+/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/kwsysPlatformTestsCXX.cxx:58:15: error: 'struct stat' has no member named 'st_mtimespec'
+   58 |   (void)stat1.st_mtimespec.tv_nsec;
+      |               ^~~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_fe9e1.dir/build.make:66: CMakeFiles/cmTC_fe9e1.dir/kwsysPlatformTestsCXX.cxx.o] Error 1
+make[1]: Leaving directory '/work/hw-aogara/hw3/hw3_heap_checker/testing_utils/kwsys/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fe9e1/fast] Error 2
+
+
+

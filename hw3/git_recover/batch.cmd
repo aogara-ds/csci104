@@ -1,0 +1,1 @@
+for /F "usebackq tokens=*" %i in ("read_blobs.txt") do git show %i
